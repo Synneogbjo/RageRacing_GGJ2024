@@ -46,7 +46,7 @@ void ATrack::countTimer(float deltaTime)
 	}
 	
 	if(positiveRotation)
-		rotationAngle = 20.f;
+		rotationAngle = 0.f;
 	else
 		rotationAngle = -13;
 }

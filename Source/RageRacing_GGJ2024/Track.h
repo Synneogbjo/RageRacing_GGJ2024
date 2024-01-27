@@ -35,7 +35,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	float timeBetweenRotations = 10.0f;
 	uint8 amoutOfRotation = 0;
-	float rotationAngle = 20.f;
+	float rotationAngle = 0.f;
 	bool positiveRotation = true;
 	
 };
