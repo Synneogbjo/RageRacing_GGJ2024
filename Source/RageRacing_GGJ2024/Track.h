@@ -34,6 +34,8 @@ private:
 	float timer = 0.0f;
 	UPROPERTY(EditAnywhere)
 	float timeBetweenRotations = 10.0f;
+	UPROPERTY(EditAnywhere)
+	float timeToCompleteRotation = 5.0f;
 	uint8 amoutOfRotation = 0;
 	float rotationAngle = 0.f;
 	bool positiveRotation = true;

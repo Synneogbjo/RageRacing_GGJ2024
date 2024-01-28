@@ -54,7 +54,7 @@ void ATrack::countTimer(float deltaTime)
 void ATrack::rotateTrack(float deltaTime ,bool positive)
 {
 	FRotator curr = GetActorRotation();
-	float newPitch = FMath::FInterpTo(curr.Pitch, rotationAngle, deltaTime, 1.0f);
+	float newPitch = FMath::FInterpTo(curr.Pitch, rotationAngle, deltaTime, timeToCompleteRotation);
 
 	SetActorRotation(FRotator(newPitch, 0.f, 0));
 }
