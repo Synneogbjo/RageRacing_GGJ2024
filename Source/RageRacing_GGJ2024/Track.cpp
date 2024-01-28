@@ -48,7 +48,7 @@ void ATrack::countTimer(float deltaTime)
 	if(positiveRotation)
 		rotationAngle = 0.f;
 	else
-		rotationAngle = -13;
+		rotationAngle = -5;
 }
 
 void ATrack::rotateTrack(float deltaTime ,bool positive)
@@ -58,3 +58,5 @@ void ATrack::rotateTrack(float deltaTime ,bool positive)
 
 	SetActorRotation(FRotator(newPitch, 0.f, 0));
 }
+
+
